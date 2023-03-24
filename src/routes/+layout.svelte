@@ -13,6 +13,7 @@
             <div class="navbar-nav">
                 <a href="/about" class="nav-item nav-link active">About</a>
                 <a href="/grafico" class="nav-item nav-link">Gráfico</a>
+                <a href="/funcion" class="nav-item nav-link">Función</a>
                 <a
                     class="nav-link dropdown-toggle"
                     href="/"
