@@ -12,8 +12,7 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav">
                 <a href="/about" class="nav-item nav-link active">About</a>
-                <a href="/grafico" class="nav-item nav-link">Gráfico</a>
-                <a href="/funcion" class="nav-item nav-link">Función</a>
+<!--
                 <a
                     class="nav-link dropdown-toggle"
                     href="/"
@@ -24,6 +23,7 @@
                 >
                     Dropdown
                 </a>
+                -->
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <li>
                         <a class="dropdown-item" href="/grafico">Gráfico</a>
