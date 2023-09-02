@@ -49,6 +49,5 @@ jobs:
       - name: Deploy to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: <YOUR PROJECT NAME>
-          entrypoint: '{out}/index.js' # same as `out` option in config
-          root: '<root>' # if necessary
+          project: far-deer-44
+          entrypoint: 'build/index.js' 
