@@ -44,10 +44,10 @@ jobs:
         shell: bash     
 
       - name: Build site
-        run: pnpm build
+        run: pnpm build && rm -rf node_modules
 
       - name: Deploy to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: far-deer-44
+          project: bold-hedgehog-96
           entrypoint: 'build/index.js' 
